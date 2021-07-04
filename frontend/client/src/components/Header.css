@@ -1,0 +1,93 @@
+header{
+    height: 4rem/* 64px */;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    border-bottom-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgba(219, 219, 219, var(--tw-border-opacity));
+    margin-bottom: 2rem/* 32px */;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+     z-index: 100;
+}
+
+.header_container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    height: 100%;
+}
+.header_inner_container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.header_main_title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: gray;
+
+}
+.header_contents{
+    color: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.logout_button{
+    width: 2rem;
+    padding-left: 2px;
+}
+.header_user_image{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user_image{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.login_button{
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 92, 152, var(--tw-bg-opacity));
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    border-radius: 0.25rem/* 4px */;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    width: 5rem/* 80px */;
+    height: 2rem/* 32px */;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.register_button{
+    font-weight: 700;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    border-radius: 0.25rem/* 4px */;
+    --tw-text-opacity: 1;
+    color: rgba(0, 92, 152, var(--tw-text-opacity));
+    width: 5rem/* 80px */;
+    height: 2rem/* 32px */;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.header_icon{
+    width: 2rem/* 32px */;
+    margin-right: 1.5rem/* 24px */;
+    --tw-text-opacity: 1;
+    color: rgba(38, 38, 38, var(--tw-text-opacity));
+    cursor: pointer;
+    font-size: 32px !important;
+}
+@media screen and (max-width:800px){
+    .header_main_title{
+        font-size: 12px;
+        margin-left: 6px;
+    }
+}

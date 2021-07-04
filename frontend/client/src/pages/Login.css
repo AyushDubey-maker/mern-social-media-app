@@ -1,0 +1,104 @@
+.login_container{
+    display: flex;
+    width: 100%;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+}
+.login_container::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url('social-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.6;
+    height: 100%;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+.login_form>h1{
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login_form>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+.login_form>form>input{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(97, 97, 97, 97);
+    width: 80%;
+    /* margin-right: 0.75rem; */
+ 
+    padding-top: 1.25rem/* 20px */;
+    padding-bottom: 1.25rem/* 20px */;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    height: 0.5rem/* 8px */;
+    border-width: 1px;
+    border-radius: 0.25rem/* 4px */;
+    margin-bottom: 0.5rem/* 8px */;
+}
+.login_form>form>label{
+    font-weight: bold;
+}
+.login_form>form>button{
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 92, 152, var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    width: 80%;
+    border-radius: 0.25rem/* 4px */;
+    height: 2rem/* 32px */;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.go_to_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    padding: 1rem/* 16px */;
+
+}
+.go_to_register>p{
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    
+}
+.go_to_register>p>a{
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgba(0, 92, 152, var(--tw-text-opacity)) !important;
+}

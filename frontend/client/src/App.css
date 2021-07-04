@@ -1,0 +1,14 @@
+.empty_div::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url('./pages/social-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+    height: 100%;
+}
