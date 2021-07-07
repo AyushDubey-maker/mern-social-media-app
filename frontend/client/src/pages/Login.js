@@ -25,9 +25,7 @@ function Login() {
     }
     return (
         <div className="login_container">
-                <div className="register_image_slider">
-   
-           </div> 
+
            <div className="register_form_div">
         <div className="login_form">
         <h1>Login Account</h1>
