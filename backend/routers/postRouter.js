@@ -3,9 +3,10 @@ const Post=require("../models/Post")
 const multer=require("multer")
 const User=require("../models/User")
 const router=require("express").Router()
+// setting up the multer code for posts upload by user.
 const storage = multer.diskStorage({
     destination: (req, file, callback) => {
-      callback(null, "./client/public/posts");
+      callback(null, "../frontend/client/public/posts");
     },
     filename: (req, file, callback) => {
       callback(null, file.originalname);
