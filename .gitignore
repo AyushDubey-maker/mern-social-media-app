@@ -2,3 +2,4 @@ node_modules
 /uploads
 /posts
 /images
+env_files
